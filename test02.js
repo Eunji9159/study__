@@ -3,6 +3,8 @@ var a = 1
 while(a<100){
 
     if(a==1){
+        a=a+1
+        continue
         console.log(a,'1이다 이것아')
     } else if (a==2) {
         console.log(a,'2이다 이것아')
